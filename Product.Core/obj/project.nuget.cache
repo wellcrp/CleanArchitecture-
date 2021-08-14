@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KoMoG0W6WV0K4Zmotsga/I8kaN0J/DfRN4VkPurlRCF9MEGqfCkoyNAFau7DYMm1awO5/EjmSrA6AAfunfEv5A==",
+  "success": true,
+  "projectFilePath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Core\\Product.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\well_\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

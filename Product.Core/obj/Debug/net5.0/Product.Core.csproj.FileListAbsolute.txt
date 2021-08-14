@@ -1,0 +1,12 @@
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\bin\Debug\net5.0\Product.Core.deps.json
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\bin\Debug\net5.0\Product.Core.dll
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\bin\Debug\net5.0\ref\Product.Core.dll
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\bin\Debug\net5.0\Product.Core.pdb
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\obj\Debug\net5.0\Product.Core.csproj.AssemblyReference.cache
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\obj\Debug\net5.0\Product.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\obj\Debug\net5.0\Product.Core.AssemblyInfoInputs.cache
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\obj\Debug\net5.0\Product.Core.AssemblyInfo.cs
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\obj\Debug\net5.0\Product.Core.csproj.CoreCompileInputs.cache
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\obj\Debug\net5.0\Product.Core.dll
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\obj\Debug\net5.0\ref\Product.Core.dll
+E:\CodeBox\Project-Estudos\C#\A12-CleanArchitecture\CA.Product\Product.Core\obj\Debug\net5.0\Product.Core.pdb
