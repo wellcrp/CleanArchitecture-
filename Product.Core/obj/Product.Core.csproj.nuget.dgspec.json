@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Core\\Product.Core.csproj": {}
+    "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Core\\Product.Core.csproj": {}
   },
   "projects": {
-    "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Core\\Product.Core.csproj": {
+    "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Core\\Product.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Core\\Product.Core.csproj",
+        "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Core\\Product.Core.csproj",
         "projectName": "Product.Core",
-        "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Core\\Product.Core.csproj",
+        "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Core\\Product.Core.csproj",
         "packagesPath": "C:\\Users\\well_\\.nuget\\packages\\",
-        "outputPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Core\\obj\\",
+        "outputPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

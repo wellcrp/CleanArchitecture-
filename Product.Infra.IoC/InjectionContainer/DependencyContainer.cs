@@ -1,16 +1,16 @@
-﻿using Product.Core.Repository;
-using Product.Infrastructure.Persistence.Repositories;
+﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Product.Infrastructure.Context;
 using Product.Application.Command.Product.Create;
-using MediatR;
+using Product.Core.Repository;
+using Product.Infrastructure.Context;
+using Product.Infrastructure.Persistence.Repositories;
 
-namespace Product.Infrastructure.InjectionDependency.DomainInjection
+namespace Product.Infra.IoC.InjectionContainer
 {
-    public class ConfigurationBindingsDomainInjection
+    public class DependencyContainer
     {
-        public static void RegisterBindings(IServiceCollection services)
+        public static void RegisterService(IServiceCollection services)
         {
             services.AddScoped<IProductRepository, ProductRepository>();
 

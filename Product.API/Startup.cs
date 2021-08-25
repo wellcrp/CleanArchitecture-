@@ -10,11 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Product.API.Filters;
 using Product.Application.Validators.Product;
-using Product.Infrastructure.InjectionDependency.DomainInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Product.Infra.IoC.InjectionContainer;
 
 namespace Product.API
 {
@@ -30,7 +26,7 @@ namespace Product.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            ConfigurationBindingsDomainInjection.RegisterBindings(services);
+            DependencyContainer.RegisterService(services);
 
             services.AddControllers(opt => opt.Filters.Add(typeof(ValidationFilter)))
                     .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateProductCommandValidator>());

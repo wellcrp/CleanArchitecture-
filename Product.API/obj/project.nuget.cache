@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SEVz5qhzQwL527mYJQ/LOyA/P5imwITcJZbDgsXzV4Fulyse3gcGjOLT8PGN8dMpYzTBGDdlcIf2xA9xM9O1DQ==",
+  "dgSpecHash": "d/itNk6jhxFULWTHqWuLaS60lflxyAnLEMSiRMlC/D6EzaMJsBMWON37zUv7t7ldUmKEhy05Ckw+7+KSNzieiw==",
   "success": true,
-  "projectFilePath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.API\\Product.API.csproj",
+  "projectFilePath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\well_\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
     "C:\\Users\\well_\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.0\\fluentvalidation.aspnetcore.10.3.0.nupkg.sha512",

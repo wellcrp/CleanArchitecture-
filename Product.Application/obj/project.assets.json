@@ -208,11 +208,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Application\\Product.Application.csproj",
+      "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Application\\Product.Application.csproj",
       "projectName": "Product.Application",
-      "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Application\\Product.Application.csproj",
+      "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Application\\Product.Application.csproj",
       "packagesPath": "C:\\Users\\well_\\.nuget\\packages\\",
-      "outputPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Application\\obj\\",
+      "outputPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -232,8 +232,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Core\\Product.Core.csproj": {
-              "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Core\\Product.Core.csproj"
+            "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Core\\Product.Core.csproj": {
+              "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Core\\Product.Core.csproj"
             }
           }
         }

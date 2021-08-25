@@ -360,6 +360,22 @@
           "bin/placeholder/Product.Core.dll": {}
         }
       },
+      "Product.Infra.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "Product.Application": "1.0.0",
+          "Product.Core": "1.0.0",
+          "Product.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Product.Infra.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.Infra.IoC.dll": {}
+        }
+      },
       "Product.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -985,6 +1001,11 @@
       "path": "../Product.Core/Product.Core.csproj",
       "msbuildProject": "../Product.Core/Product.Core.csproj"
     },
+    "Product.Infra.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Product.Infra.IoC/Product.Infra.IoC.csproj",
+      "msbuildProject": "../Product.Infra.IoC/Product.Infra.IoC.csproj"
+    },
     "Product.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../Product.Infrastructure/Product.Infrastructure.csproj",
@@ -995,6 +1016,7 @@
     "net5.0": [
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Product.Application >= 1.0.0",
+      "Product.Infra.IoC >= 1.0.0",
       "Product.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
@@ -1006,11 +1028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.API\\Product.API.csproj",
+      "projectUniqueName": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.API\\Product.API.csproj",
       "projectName": "Product.API",
-      "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.API\\Product.API.csproj",
+      "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.API\\Product.API.csproj",
       "packagesPath": "C:\\Users\\well_\\.nuget\\packages\\",
-      "outputPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.API\\obj\\",
+      "outputPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1030,11 +1052,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Application\\Product.Application.csproj": {
-              "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Application\\Product.Application.csproj"
+            "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Application\\Product.Application.csproj": {
+              "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Application\\Product.Application.csproj"
             },
-            "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Infrastructure\\Product.Infrastructure.csproj": {
-              "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CA.Product\\Product.Infrastructure\\Product.Infrastructure.csproj"
+            "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Infra.IoC\\Product.Infra.IoC.csproj": {
+              "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Infra.IoC\\Product.Infra.IoC.csproj"
+            },
+            "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Infrastructure\\Product.Infrastructure.csproj": {
+              "projectPath": "E:\\CodeBox\\Project-Estudos\\C#\\A12-CleanArchitecture\\CleanArchitecture-\\Product.Infrastructure\\Product.Infrastructure.csproj"
             }
           }
         }
